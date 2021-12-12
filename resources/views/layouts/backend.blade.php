@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="{{ url('node_modules/owl.carousel/dist/assets/owl.theme.default.min.css') }}">
 
   <!-- Template CSS -->
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/css/components.css') }}">
+  <link rel="stylesheet" href="{{ asset('backend/assets/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('backend/assets/css/components.css') }}">
 </head>
 
 <body>
@@ -55,19 +55,19 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-3-50.png') }}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{ asset('backend/assets/img/products/product-3-50.png') }}" alt="product">
                   oPhone S9 Limited Edition
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-2-50.png') }}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{ asset('backend/assets/img/products/product-2-50.png') }}" alt="product">
                   Drone X2 New Gen-7
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-1-50.png') }}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{ asset('backend/assets/img/products/product-1-50.png') }}" alt="product">
                   Headphone Blitz
                 </a>
               </div>
@@ -104,7 +104,7 @@
               <div class="dropdown-list-content dropdown-list-message">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{ asset('assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                    <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -115,7 +115,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{ asset('assets/img/avatar/avatar-2.png') }}" class="rounded-circle">
+                    <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-2.png') }}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Dedik Sugiharto</b>
@@ -125,7 +125,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{ asset('assets/img/avatar/avatar-3.png') }}" class="rounded-circle">
+                    <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-3.png') }}" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -136,7 +136,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="../assets/img/avatar/avatar-4.png" class="rounded-circle">
+                    <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-4.png')  }}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Ardian Rahardiansyah</b>
@@ -146,7 +146,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="../assets/img/avatar/avatar-5.png" class="rounded-circle">
+                    <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-5.png') }}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Alfa Zulkarnain</b>
@@ -220,7 +220,7 @@
             </div>
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <img alt="image" src="{{ asset('backend/assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 5 min ago</div>
@@ -522,7 +522,7 @@
                 <div class="card-body" id="top-5-scroll">
                   <ul class="list-unstyled list-unstyled-border">
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="{{ asset('backend/assets/img/products/product-3-50.png') }}" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">86 Sales</div></div>
                         <div class="media-title">oPhone S9 Limited</div>
@@ -539,7 +539,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="../assets/img/products/product-4-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="{{ asset('backend/assets/img/products/product-4-50.png') }}" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">67 Sales</div></div>
                         <div class="media-title">iBook Pro 2018</div>
@@ -556,7 +556,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="../assets/img/products/product-1-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="{{ asset('backend/assets/img/products/product-1-50.png') }}" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">63 Sales</div></div>
                         <div class="media-title">Headphone Blitz</div>
@@ -573,7 +573,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="{{ asset('backend/assets/img/products/product-3-50.png') }}" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
                         <div class="media-title">oPhone X Lite</div>
@@ -590,7 +590,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="../assets/img/products/product-5-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="{{ asset('backend/assets/img/products/product-5-50.png') }}" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
                         <div class="media-title">Old Camera</div>
@@ -632,7 +632,7 @@
                     <div>
                       <div class="product-item pb-3">
                         <div class="product-image">
-                          <img alt="image" src="../assets/img/products/product-4-50.png" class="img-fluid">
+                          <img alt="image" src="{{ asset('backend/assets/img/products/product-4-50.png') }}" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">iBook Pro 2018</div>
@@ -653,7 +653,7 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="../assets/img/products/product-3-50.png" class="img-fluid">
+                          <img alt="image" src="{{ asset('backend/assets/img/products/product-3-50.png') }}" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">oPhone S9 Limited</div>
@@ -674,7 +674,7 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="../assets/img/products/product-1-50.png" class="img-fluid">
+                          <img alt="image" src="{{ asset('backend/assets/img/products/product-1-50.png') }}" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">Headphone Blitz</div>
@@ -707,21 +707,21 @@
                       <div class="text-title mb-2">July</div>
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/id.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Indonesia</div>
                             <div class="text-small text-muted">3,282 <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/my.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/my.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Malaysia</div>
                             <div class="text-small text-muted">2,976 <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/us.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/us.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">United States</div>
                             <div class="text-small text-muted">1,576 <i class="fas fa-caret-up text-success"></i></div>
@@ -733,21 +733,21 @@
                       <div class="text-title mb-2">August</div>
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/id.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Indonesia</div>
                             <div class="text-small text-muted">3,486 <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/ps.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/ps.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Palestine</div>
                             <div class="text-small text-muted">3,182 <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="../node_modules/flag-icon-css/flags/4x3/de.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="{{ url('node_modules/flag-icon-css/flags/4x3/de.svg') }}" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Germany</div>
                             <div class="text-small text-muted">2,317 <i class="fas fa-caret-down text-danger"></i></div>
@@ -897,7 +897,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="{{ asset('assets/js/stisla.js') }}"></script>
+  <script src="{{ asset('backend/assets/js/stisla.js') }}"></script>
 
   <!-- JS Libraies -->
   <script src="{{ url('node_modules/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
@@ -907,10 +907,10 @@
   <script src="{{ url('node_modules/chocolat/dist/js/jquery.chocolat.min.js') }}"></script>
 
   <!-- Template JS File -->
-  <script src="{{ asset('assets/js/scripts.js') }}"></script>
-  <script src="{{ asset('assets/js/custom.js')}}"></script>
+  <script src="{{ asset('backend/assets/js/scripts.js') }}"></script>
+  <script src="{{ asset('backend/assets/js/custom.js')}}"></script>
 
   <!-- Page Specific JS File -->
-  <script src="{{ asset('assets/js/page/index.js') }}"></script>
+  <script src="{{ asset('backend/assets/js/page/index.js') }}"></script>
 </body>
 </html>
