@@ -65,7 +65,9 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        //
+        $item = Category::findOrFail($id);
+
+        return view('backend.category.edit', compact('item'));
     }
 
     /**
@@ -77,7 +79,12 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = $request->all();
+
+        $item = Category::findOrFail($id);
+        $item->update($data);
+
+        return redirect()->route('category.index');
     }
 
     /**
@@ -88,6 +95,7 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
-    }
+        $items = Category::findOrFail($id);
+        $items->delete();
+        return redirect()->route('category.index');    }
 }

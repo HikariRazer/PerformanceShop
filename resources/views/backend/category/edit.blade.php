@@ -2,14 +2,15 @@
 @section('content')
 <div class="card">
     <div class="card-header">
-      <h4>Create Product Category</h4>
+      <h4>Edit Product Category</h4>
     </div>
-    <form action="{{ route('category.store') }}" method="POST">
+    <form action="{{ route('category.update', $item->id) }}" method="POST">
+    @method('PUT')
     <div class="card-body">
         @csrf
         <div class="form-group">
             <label>Category Name</label>
-            <input type="text" class="form-control" name="category_name">
+            <input type="text" class="form-control" name="category_name" value="{{ old('category_name') ? old('category_name') : $item->category_name }}">
         </div>
     </div>
     <div class="card-footer text-right">

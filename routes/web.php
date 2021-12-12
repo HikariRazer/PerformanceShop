@@ -21,9 +21,12 @@ Auth::routes();
 
 Route::prefix('dashboard')->group(function () {
     Route::get('/',[App\Http\Controllers\DashboardController::class, 'index']);
-    Route::resources([
-        'category' => App\Http\Controllers\CategoryController::class
-    ]);
+
+    Route::prefix('products')->group(function () {
+        Route::resources([
+            'category' => App\Http\Controllers\CategoryController::class
+        ]);
+    });
 });
 
 
