@@ -2,17 +2,17 @@
 <html lang="en">
 
 {{-- Styling --}}
-@include('layouts.components.style')
+@include('layouts.components.backend.style')
 
 <body>
   <div id="app">
     <div class="main-wrapper">
 
     {{-- Narvigation Bar --}}
-    @include('layouts.components.navbar')
+    @include('layouts.components.backend.navbar')
 
     {{-- Sidebar --}}
-    @include('layouts.components.sidebar')
+    @include('layouts.components.backend.sidebar')
 
 
       <!-- Main Content -->
@@ -24,13 +24,13 @@
       </div>
 
       {{-- Footer --}}
-      @include('layouts.components.footer')
+      @include('layouts.components.backend.footer')
 
     </div>
   </div>
 
   {{-- Script --}}
-  @include('layouts.components.script')
+  @include('layouts.components.backend.script')
 
 </body>
 </html>
