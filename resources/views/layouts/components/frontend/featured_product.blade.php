@@ -6,7 +6,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a  href="product_details.html"><img src="assets/img/d.jpg" alt=""></a>
+                    <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/disc.pngassets/img/d.jpg") }}" alt=""></a>
                     <div class="caption">
                         <h5>Manicure & Pedicure</h5>
                         <h4>
@@ -20,7 +20,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a  href="product_details.html"><img src="assets/img/e.jpg" alt=""></a>
+                    <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/disc.pngassets/img/e.jpg") }}" alt=""></a>
                     <div class="caption">
                         <h5>Manicure & Pedicure</h5>
                         <h4>
@@ -34,7 +34,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a  href="product_details.html"><img src="assets/img/f.jpg" alt=""/></a>
+                    <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/disc.pngassets/img/f.jpg") }}" alt=""/></a>
                     <div class="caption">
                         <h5>Manicure & Pedicure</h5>
                         <h4>

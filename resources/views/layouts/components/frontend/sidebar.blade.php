@@ -21,7 +21,7 @@
             only valid for online order. <br><br><a class="defaultBtn" href="#">Click here </a>
         </p>
     </div>
-    <div class="well well-small" ><a href="#"><img src="assets/img/paypal.jpg" alt="payment method paypal"></a></div>
+    <div class="well well-small" ><a href="#"><img src="{{ asset("frontend/assets/img/paypal.jpg") }}" alt="payment method paypal"></a></div>
         <a class="shopBtn btn-block" href="#">Upcoming products <br><small>Click to view</small></a>
         <br>
         <br>

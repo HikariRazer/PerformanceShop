@@ -10,27 +10,27 @@
                             <div class="thumbnail">
                                 <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
                                 <a href="#" class="tag"></a>
-                                <a href="product_details.html"><img src="assets/img/bootstrap-ring.png" alt="bootstrap-ring"></a>
+                                <a href="product_details.html"><img src="{{ asset("frontend/assets/img/bootstrap-ring.png") }}" alt="bootstrap-ring"></a>
                             </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
                             <a href="#" class="tag"></a>
-                            <a  href="product_details.html"><img src="assets/img/i.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/i.jpg") }}" alt=""></a>
                         </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
                             <a href="#" class="tag"></a>
-                            <a  href="product_details.html"><img src="assets/img/g.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/g.jpg") }}" alt=""></a>
                         </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                            <a  href="product_details.html"><img src="assets/img/s.png" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/s.png") }}" alt=""></a>
                         </div>
                         </li>
                     </ul>
@@ -40,25 +40,25 @@
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                            <a  href="product_details.html"><img src="assets/img/i.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/i.jpg") }}" alt=""></a>
                         </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                            <a  href="product_details.html"><img src="assets/img/f.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/f.jpg") }}" alt=""></a>
                         </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                            <a  href="product_details.html"><img src="assets/img/h.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/h.jpg") }}" alt=""></a>
                         </div>
                         </li>
                         <li class="span3">
                         <div class="thumbnail">
                             <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                            <a  href="product_details.html"><img src="assets/img/j.jpg" alt=""></a>
+                            <a  href="product_details.html"><img src="{{ asset("frontend/assets/img/j.jpg") }}" alt=""></a>
                         </div>
                         </li>
                     </ul>
@@ -73,7 +73,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a href="product_details.html"><img src="assets/img/b.jpg" alt=""></a>
+                    <a href="product_details.html"><img src="{{ asset("frontend/assets/img/b.jpg") }}" alt=""></a>
                     <div class="caption cntr">
                         <p>Manicure & Pedicure</p>
                         <p><strong> $22.00</strong></p>
@@ -89,7 +89,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a href="product_details.html"><img src="assets/img/c.jpg" alt=""></a>
+                    <a href="product_details.html"><img src="{{ asset("frontend/assets/img/c.jpg") }}" alt=""></a>
                     <div class="caption cntr">
                         <p>Manicure & Pedicure</p>
                         <p><strong> $22.00</strong></p>
@@ -105,7 +105,7 @@
             <li class="span4">
                 <div class="thumbnail">
                     <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-                    <a href="product_details.html"><img src="assets/img/a.jpg" alt=""></a>
+                    <a href="product_details.html"><img src="{{ asset("frontend/assets/img/a.jpg") }}" alt=""></a>
                     <div class="caption cntr">
                         <p>Manicure & Pedicure</p>
                         <p><strong> $22.00</strong></p>
