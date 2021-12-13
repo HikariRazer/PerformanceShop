@@ -28,6 +28,12 @@ Route::prefix('dashboard')->group(function () {
         Route::resources([
             'category' => App\Http\Controllers\CategoryController::class
         ]);
+        Route::resources([
+            'product' => App\Http\Controllers\ProductController::class
+        ]);
+        Route::resources([
+            'brand' => App\Http\Controllers\BrandController::class
+        ]);
     });
 });
 
