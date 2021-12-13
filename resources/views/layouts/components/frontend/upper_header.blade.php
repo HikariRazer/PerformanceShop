@@ -9,7 +9,7 @@
 					<a href="#"><span class="icon-twitter"></span></a>
 					<a href="#"><span class="icon-facebook"></span></a>
 					<a href="#"><span class="icon-youtube"></span></a>
-					<a href="#"><span class="icon-tumblr"></span></a>
+					{{-- <a href="#"><span class="icon-tumblr"></span></a> --}}
 				</div>
 				<a class="active" href="index.html"> <span class="icon-home"></span> Home</a>
 				<a href="#"><span class="icon-user"></span> My Account</a>
