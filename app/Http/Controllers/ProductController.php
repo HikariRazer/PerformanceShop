@@ -7,6 +7,7 @@ use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Product;
 use Str;
+use File;
 
 class ProductController extends Controller
 {
@@ -50,7 +51,10 @@ class ProductController extends Controller
     {
         $data = $request->all();
         $data['slug'] = Str::slug($data['product_name']);
-        $data['file_path'] = $request->file('file_path')->store('products');
+        $data['file_path'] = $request->file('file_path')->store(
+            'products',
+            'public'
+        );
 
         Product::create($data);
 
@@ -77,8 +81,14 @@ class ProductController extends Controller
     public function edit($id)
     {
         $item = Product::findOrFail($id);
+        $categories = Category::all();
+        $brands = Brand::all();
 
-        return view('backend.product.edit', compact('item'));
+        return view('backend.product.edit', compact(
+            'item',
+            'categories',
+            'brands'
+        ));
     }
 
     /**
@@ -91,6 +101,19 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $data = $request->all();
+        // if($request->file('file_path')) {
+        //     $data['file_path'] = $request->file('file_path')->storeAs(
+        //         'products',
+        //         'public'
+        //     );
+        // }
+
+        if($request->hasFile('file_path')){
+            $image = $request->file('file_path')->store('products', 'public');
+            $data['file_path'] = $image;
+        }
+
+        dd($request->all());
 
         $item = Product::findOrFail($id);
         $item->update($data);
