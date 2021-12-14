@@ -11,7 +11,7 @@
         {{-- lower header --}}
         @include('layouts.components.frontend.lower_header')
         {{-- navbar --}}
-        @include('layouts.components.frontend.navbar')
+        {{-- @include('layouts.components.frontend.navbar') --}}
         {{-- body section --}}
         <div class="row">
             {{-- sidebar --}}
@@ -31,8 +31,9 @@
         @include('layouts.components.frontend.footer')
     </div><!-- /container -->
     {{-- copyright --}}
-    @include('layouts.components.frontend.copyright')
+    {{-- @include('layouts.components.frontend.copyright') --}}
     {{-- script --}}
     @include('layouts.components.frontend.script')
-  </body>
+</body>
+
 </html>

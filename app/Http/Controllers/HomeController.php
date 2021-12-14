@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.index');
+        $categories = DB::table('categories')->take(7)->get();
+        $newProducts = DB::table('products')->orderBy('created_at', 'asc')->take(9)->get();
+        $featuredProducts = DB::table('products')->orderBy('harga', 'desc')->take(3)->get();
+        return view('frontend.index', compact(
+            'categories',
+            'newProducts',
+            'featuredProducts'
+        ));
     }
 }
