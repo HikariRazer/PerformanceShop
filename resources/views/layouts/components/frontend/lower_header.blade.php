@@ -6,8 +6,8 @@ Lower Header Section
     <div class="row">
         <div class="span4">
         <h1>
-        <a class="logo" href="index.html"><span>Twitter Bootstrap ecommerce template</span>
-            <img src="{{ asset("frontend/assets/img/logo-bootstrap-shoping-cart.png") }}" alt="bootstrap sexy shop">
+        <a class="logo" href="{{ route('home') }}"><span>Performance Shop</span>
+            <img src="{{ asset("frontend/assets/img/Logo.png") }}" alt="bootstrap sexy shop">
         </a>
         </h1>
         </div>

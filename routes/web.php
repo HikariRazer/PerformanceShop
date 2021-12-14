@@ -22,7 +22,7 @@ Route::get('/',[App\Http\Controllers\HomeController::class, 'index']);
 Auth::routes();
 
 Route::prefix('dashboard')->group(function () {
-    Route::get('/',[App\Http\Controllers\DashboardController::class, 'index']);
+    Route::get('/',[App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
     Route::prefix('products')->group(function () {
         Route::resources([
@@ -39,4 +39,3 @@ Route::prefix('dashboard')->group(function () {
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');

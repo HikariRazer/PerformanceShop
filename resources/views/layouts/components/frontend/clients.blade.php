@@ -4,22 +4,22 @@
 	<hr class="soften"/>
 	<div class="row">
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/1.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo1.png") }}"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/2.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo2.png") }}"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/3.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo3.png") }}"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/4.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo4.png") }}"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/5.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo5.png") }}"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/6.png") }}"></a>
+			<a href="#"><img alt="" src="{{ asset("frontend/assets/img/logo6.png") }}"></a>
 		</div>
 	</div>
 </section>
