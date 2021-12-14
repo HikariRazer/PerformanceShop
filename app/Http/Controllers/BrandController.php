@@ -43,7 +43,7 @@ class BrandController extends Controller
 
         Brand::create($data);
 
-        return redirect()->back();
+        return redirect()->route('brand.index');
     }
 
     /**
