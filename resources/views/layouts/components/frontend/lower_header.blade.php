@@ -7,7 +7,7 @@ Lower Header Section
         <div class="span4">
         <h1>
         <a class="logo" href="{{ route('home') }}"><span>Performance Shop</span>
-            <img src="{{ asset("frontend/assets/img/Logo.png") }}" alt="bootstrap sexy shop">
+            <img src="{{ asset("frontend/assets/img/PerformanceShop.png") }}" alt="bootstrap sexy shop">
         </a>
         </h1>
         </div>
