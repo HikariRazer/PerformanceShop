@@ -1,6 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    DashboardController,
+    ProductController,
+    HomeController,
+    CategoryController,
+    BrandController
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -17,26 +24,24 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/',[App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/',[HomeController::class, 'index']);
 
 Auth::routes();
 
 Route::prefix('dashboard')->group(function () {
-    Route::get('/',[App\Http\Controllers\DashboardController::class, 'index']);
+    Route::get('/',[DashboardController::class, 'index'])->name('dashboard');
     Route::resources([
-        'product' => App\Http\Controllers\ProductController::class
+        'product' => ProductController::class
     ]);
 
     Route::prefix('products')->group(function () {
         Route::resources([
-            'category' => App\Http\Controllers\CategoryController::class
+            'category' => CategoryController::class
         ]);
         Route::resources([
-            'brand' => App\Http\Controllers\BrandController::class
+            'brand' => BrandController::class
         ]);
     });
 });
 
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
+Route::get('/home', [HomeController::class, 'index'])->name('home');

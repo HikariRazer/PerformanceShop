@@ -11,7 +11,7 @@ Navigation Bar Section
         </a>
         <div class="nav-collapse">
           <ul class="nav">
-            <li class="active"><a href="index.html">Home	</a></li>
+            <li class="active"><a href="{{ route('home') }}">Home	</a></li>
             <li class=""><a href="list-view.html">List View</a></li>
             <li class=""><a href="grid-view.html">Grid View</a></li>
             <li class=""><a href="three-col.html">Three Column</a></li>
@@ -23,7 +23,7 @@ Navigation Bar Section
           </form>
           <ul class="nav pull-right">
           <li class="dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
+              <a data-toggle="dropdown" class="dropdown-toggle" href="{{ route('login') }}"><span class="icon-lock"></span> Login <b class="caret"></b></a>
               <div class="dropdown-menu">
               <form class="form-horizontal loginFrm">
                 <div class="control-group">

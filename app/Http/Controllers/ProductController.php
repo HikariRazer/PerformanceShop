@@ -7,7 +7,7 @@ use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Product;
 use Str;
-use File;
+use DB;
 
 class ProductController extends Controller
 {
@@ -101,19 +101,14 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $data = $request->all();
-        // if($request->file('file_path')) {
-        //     $data['file_path'] = $request->file('file_path')->storeAs(
-        //         'products',
-        //         'public'
-        //     );
-        // }
-
-        if($request->hasFile('file_path')){
-            $image = $request->file('file_path')->store('products', 'public');
-            $data['file_path'] = $image;
+        if(!empty($request->file('file_path'))) {
+            $data['file_path'] = $request->file('file_path')->store(
+                'products',
+                'public'
+            );
         }
 
-        dd($request->all());
+        // dd($request->all());
 
         $item = Product::findOrFail($id);
         $item->update($data);

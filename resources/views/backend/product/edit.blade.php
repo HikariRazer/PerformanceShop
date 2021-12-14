@@ -4,7 +4,7 @@
         <div class="card-header">
             <h4>Edit Product</h4>
         </div>
-        <form action="{{ route('product.update', $item->id) }}" method="POST">
+        <form action="{{ route('product.update', $item->id) }}" method="POST" enctype="multipart/form-data">
             @method('PUT')
             <div class="card-body">
                 @csrf
@@ -46,8 +46,7 @@
                 </div>
                 <div class="form-group">
                     <label>Image</label>
-                    <input type="file" class="form-control" name="file_path"
-                        value="{{ old('file_path') ? old('file_path') : $item->file_path }}">
+                    <input type="file" class="form-control" name="file_path">
                 </div>
             </div>
             <div class="card-footer text-right">

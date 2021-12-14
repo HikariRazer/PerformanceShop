@@ -2,31 +2,27 @@
     <div id="myCarousel" class="carousel slide homCar">
         <div class="carousel-inner">
         <div class="item">
-            <img style="width:100%" src="{{ asset("frontend/assets/img/bootstrap_free-ecommerce.png") }}" alt="bootstrap ecommerce templates">
+            <img style="width:100%" src="{{ asset("frontend/assets/img/te37.png") }}" alt="bootstrap ecommerce templates">
             <div class="carousel-caption">
-                <h4>Bootstrap shopping cart</h4>
-                <p><span>Very clean simple to use</span></p>
+                <h4>Performace Forged Wheels</h4>
             </div>
         </div>
         <div class="item">
-            <img style="width:100%" src="{{ asset("frontend/assets/img/carousel1.png") }}" alt="bootstrap ecommerce templates">
+            <img style="width:100%" src="{{ asset("frontend/assets/img/tein.png") }}" alt="bootstrap ecommerce templates">
             <div class="carousel-caption">
-                <h4>Bootstrap Ecommerce template</h4>
-                <p><span>Highly Google seo friendly</span></p>
+                <h4>Adjustable and Stablility</h4>
             </div>
         </div>
         <div class="item active">
-            <img style="width:100%" src="{{ asset("frontend/assets/img/carousel3.png") }}" alt="bootstrap ecommerce templates">
+            <img style="width:100%" src="{{ asset("frontend/assets/img/turbo.png") }}" alt="bootstrap ecommerce templates">
             <div class="carousel-caption">
-                <h4>Twitter Bootstrap cart</h4>
-                <p><span>Very easy to integrate and expand.</span></p>
+                <h4>Boost Performance</h4>
             </div>
         </div>
         <div class="item">
-            <img style="width:100%" src="{{ asset("frontend/assets/img/bootstrap-templates.png") }}" alt="bootstrap templates">
+            <img style="width:100%" src="{{ asset("frontend/assets/img/brembo.png") }}" alt="bootstrap templates">
             <div class="carousel-caption">
-                <h4>Bootstrap templates integration</h4>
-                <p><span>Compitable to many more opensource cart</span></p>
+                <h4>Max Breaking System</h4>
             </div>
         </div>
         </div>
