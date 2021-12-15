@@ -28,7 +28,7 @@ Route::get('/',[HomeController::class, 'index']);
 
 Auth::routes();
 
-Route::prefix('dashboard')->group(function () {
+Route::prefix('dashboard')->middleware(['auth'])->group(function () {
     Route::get('/',[DashboardController::class, 'index'])->name('dashboard');
     Route::resources([
         'product' => ProductController::class
