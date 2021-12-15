@@ -7,14 +7,14 @@
             @forelse ($newProducts as $product)
                 <li class="span4">
                     <div class="thumbnail">
-                        <a class="zoomTool" href="product_details.html" title="add to cart"><span
+                        <a class="zoomTool" href="{{ route('cart') }}" title="add to cart"><span
                                 class="icon-search"></span> VIEW</a>
-                        <a href="product_details.html"><img src="{{ url('storage/' . $product->file_path) }}"
+                        <a href="{{ route('detail') }}"><img src="{{ url('storage/' . $product->file_path) }}"
                                 alt=""></a>
                         <div class="caption cntr">
                             <p>{{ $product->product_name }}</p>
                             <p><strong> Rp. {{ $product->harga }}</strong></p>
-                            <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+                            <h4><a class="shopBtn" href="{{ route('cart') }}" title="add to cart"> Add to cart </a></h4>
                             <br class="clr">
                         </div>
                     </div>

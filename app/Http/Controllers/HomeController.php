@@ -33,4 +33,13 @@ class HomeController extends Controller
             'featuredProducts'
         ));
     }
+
+    public function detail()
+    {
+        return view('frontend.detail');
+    }
+
+    public function cart(){
+        return view('frontend.checkout');
+    }
 }

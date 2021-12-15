@@ -1,3 +1,7 @@
 user1
 user1@test.com
 useruser
+
+admin
+admin@test.com
+adminadmin

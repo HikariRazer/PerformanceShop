@@ -45,3 +45,6 @@ Route::prefix('dashboard')->middleware(['auth'])->group(function () {
 });
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/detail', [HomeController::class, 'detail'])->name('detail');
+Route::get('/cart', [HomeController::class, 'cart'])->name('cart');
+
