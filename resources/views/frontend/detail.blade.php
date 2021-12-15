@@ -13,8 +13,6 @@
             {{-- @include('layouts.components.frontend.navbar') --}}
             {{-- body section --}}
             <div class="row">
-                {{-- sidebar --}}
-                @include('layouts.components.frontend.sidebar')
                 <div class="span9">
                     {{-- detail product --}}
                     @include('layouts.components.frontend.product_detail')
